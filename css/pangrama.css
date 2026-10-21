@@ -1,8 +1,8 @@
 :root{
     color-scheme: light;
-    --bg-color: #295c35;
+    --bg-color: #9d9327;
     --text-color: #ffffff;
-    --accent-color: #ff6f61;
+    --accent-color: #35350e;
     --font-body: "neulis-sans", sans-serif;
     --font-title: "neulis-sans", sans-serif;
     --font-size: 1.2rem;
@@ -14,13 +14,13 @@
 }
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 100;
+    padding: 100;
 }
 .dark-theme {
-    --bg-color: #1e1e1e;
+    --bg-color: #35350e;
     --text-color: #ffffff;
-   --accent-color: #ff6f61;
+   --accent-color: #9d9327;
     --font-body: "neulis-sans", sans-serif;
     --font-title: "neulis-sans", sans-serif;
     --font-size: 1.2rem;
