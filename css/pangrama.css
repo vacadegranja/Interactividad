@@ -1,7 +1,7 @@
 :root{
     color-scheme: light;
     --bg-color: #9d9327;
-    --text-color: #ffffff;
+    --text-color: #fafafa;
     --accent-color: #35350e;
     --font-body: "neulis-sans", sans-serif;
     --font-title: "neulis-sans", sans-serif;
@@ -9,7 +9,7 @@
     --font-size-h1: 5rem;
     --font-size-h2: 3rem;
     --font-size-h3: 2rem;
-    --header-bg-color: #2c2c2c;
+    --header-svg-color: #ffffff;
 
 }
 * {
@@ -19,7 +19,7 @@
 }
 .dark-theme {
     --bg-color: #35350e;
-    --text-color: #ffffff;
+    --text-color: #c6c6c6;
    --accent-color: #9d9327;
     --font-body: "neulis-sans", sans-serif;
     --font-title: "neulis-sans", sans-serif;
@@ -28,6 +28,33 @@
     --font-size-h2: 3rem;
     --font-size-h3: 2rem;
     --header-bg-color: #2c2c2c;
+    --header-svg-color: #c6c6c6;
+}
+/* header svg {
+    width: 150px;
+    height: auto;
+    fill: var(--header-svg-color);
+    transition: all 0.3s ease-in-out;
+} */
+#home-link svg {
+    width: 150px;
+    height: auto;
+    fill: var(--header-svg-color);
+    transition: all 0.3s ease-in-out;
+}
+
+#home-link svg:hover {
+    fill: var(--accent-color);
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    transition: all 0.3s ease-in-out;
 }
 body {
     background-color: var(--bg-color);
